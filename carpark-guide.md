@@ -63,18 +63,19 @@ This guide provides detailed step-by-step instructions for completing the projec
 
 **Evidencing:**
 Include a screenshot of your GitHub repository **after** you have pushed your initial commit.
-[Screenshot 2023-11-29 183959.png](..%2F..%2F..%2FPictures%2FScreenshots%2FScreenshot%202023-11-29%20183959.png)
 
 
+![Stubs_for_core_classes.png](Stubs_for_core_classes.png)
 ### Identify classes, methods, and attributes
 
 After reading the task requirements, you should be able to identify the classes, methods, and attributes required for the car park system. Complete the following table with the classes, methods, and attributes you must implement.
 
-| Class Name | Attributes | Methods |
-| ---------- | ---------- | ------- |
-| `CarPark`    |            |         |
-| `Sensor`     |            |         |
-| `Display`    |            |         |
+| Class Name | Attributes                | Methods                |
+|------------|---------------------------|------------------------|
+| `CarPark`  | plates,  <br/>bays:number | Plates,<br/>Number_bay |
+| `Sensor`   | location detect_out       | Location DetectOut     |
+| `Config`   |                           |                        |
+| `Display`  | display_current, turn_off | Display, DisplayOff    |
 
 **Evidencing:**
 Ensure you have completed the previous table and include at least two methods and attributes for each.
@@ -101,8 +102,8 @@ Ensure you have completed the previous table and include at least two methods an
 
 **Evidencing:**
 Include a screenshot of your GitHub repository `src/` directory **after** you have pushed your changes.
-
-```markdown
+![Screenshot 2023-11-29 183959.png](..%2F..%2F..%2FPictures%2FScreenshots%2FScreenshot%202023-11-29%20183959.png)
+```markdown![Screenshot 2023-11-29 183826.png](..%2F..%2F..%2FPictures%2FScreenshots%2FScreenshot%202023-11-29%20183826.png)
 ![Added stubs for classes](images/stubs-for-classes.png)
 ```
 
