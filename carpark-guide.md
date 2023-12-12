@@ -334,12 +334,13 @@ Now we can add the code to add the `component` to the appropriate. Add the follo
 **Evidencing:**
 After you have implemented the required code, commit your changes to the local repository and add a tag so your lecturer can find it:
 
+
    ```bash
    git add .
    git commit -m "Added a register method to the car park class"
    git tag -a "s3" -m "Added a register method to the car park class"
    ```
-
+![Added  register method to car park class.png](Added%20%20register%20method%20to%20car%20park%20class.png)
 #### Add and remove car methods
 
 When a car enters the car park, we record its plate number and update the displays. When a car exits the car park, we remove its plate number and update the displays. We can implement these behaviours in the `add_car` and `remove_car` methods.
