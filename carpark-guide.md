@@ -102,7 +102,7 @@ Ensure you have completed the previous table and include at least two methods an
 
 **Evidencing:**
 Include a screenshot of your GitHub repository `src/` directory **after** you have pushed your changes.
-![Screenshot 2023-11-29 183959.png](..%2F..%2F..%2FPictures%2FScreenshots%2FScreenshot%202023-11-29%20183959.png)
+![Screenshot 2023-11-29 183959.png](C:\Users\Youssn\source\repos\car-park-project\Images\Stubs_for_core_classes.png)
 ```markdown![Screenshot 2023-11-29 183826.png](..%2F..%2F..%2FPictures%2FScreenshots%2FScreenshot%202023-11-29%20183826.png)
 ![Added stubs for classes](images/stubs-for-classes.png)
 ```
@@ -340,7 +340,9 @@ After you have implemented the required code, commit your changes to the local r
    git commit -m "Added a register method to the car park class"
    git tag -a "s3" -m "Added a register method to the car park class"
    ```
-![Added  register method to car park class.png](Added%20%20register%20method%20to%20car%20park%20class.png)
+
+
+
 #### Add and remove car methods
 
 When a car enters the car park, we record its plate number and update the displays. When a car exits the car park, we remove its plate number and update the displays. We can implement these behaviours in the `add_car` and `remove_car` methods.
@@ -439,7 +441,7 @@ This time, we will push the tag to the remote repository:
 Add a screenshot of the GitHub repository after pushing the tag, showing the CarPark class with the new methods:
 
 ```markdown
-![Added methods to the car park class](images/methods-to-car-park.png)
+![Added methods to the car park class.png](Images%2FAdded%20methods%20to%20the%20car%20park%20class.png)
 ```
 
 Answer the following questions:

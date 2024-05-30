@@ -8,10 +8,10 @@ class Sensor:
         return f'{self.id}: Sensor is {"is active" if self.is_active else "if active"}'
 
 
-    class EntrySensor(Sensor):
+class EntrySensor(Sensor):
         ...
 
-    class ExitSensor(Sensor):
+class ExitSensor(Sensor):
             ...
 
 

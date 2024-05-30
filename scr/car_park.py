@@ -1,6 +1,7 @@
 from sensor import Sensor
 from  display import Display
 class CarPark:
+
     def __init__(self, location, capacity, plates=None, sensors=None, displays=None):
         self.location = location
         self.capacity = capacity
@@ -23,7 +24,7 @@ class CarPark:
 
     def register(self, component):
         if not isinstance(component, (Sensor, Display)):
-            raise TypeError("Invalid component type")
+            raise TypeError("Invalid component type,Object must be a Sensor or Display")
 
         if isinstance(component, Sensor):
             self.sensors.append(component)
@@ -32,13 +33,15 @@ class CarPark:
 
     def add_car(self, plate):
         self.plates.append(plate)
+        self.update_displays()
 
     def remove_car(self, plate):
         self.plates.remove(plate)
+        self.update_displays()
 
     def update_displays(self):
         for display in self.displays:
-            display.update({"Bays": self.available_bays, "Temperature": 48,})
+            display.update({"Bays": self.available_bays, "Temperature": 48})
             print(f"Updating: {display}")
 
 
