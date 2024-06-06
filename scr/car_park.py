@@ -1,5 +1,7 @@
 from sensor import Sensor
-from  display import Display
+from display import Display
+
+
 class CarPark:
 
     def __init__(self, location, capacity, plates=None, sensors=None, displays=None):
@@ -14,7 +16,7 @@ class CarPark:
         return self.capacity - len(self.plates)
 
     def __str__(self):
-        return f'Please enjoy your stay at {self.location} car park'
+        return f'Please enjoy your stay at {self.location} car park with {self.capacity} '
 
     def register_sensor(self, sensor):
         self.sensors.append(sensor)
