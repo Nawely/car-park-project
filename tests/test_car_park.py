@@ -4,11 +4,11 @@ from car_park import CarPark
 
 class TestCarPark(unittest.TestCase):
     def setUp(self):
-        self.car_park = CarPark("123 Example Street", 100)
+        self.car_park = CarPark("Moondalup", 100)
 
     def test_car_park_initialized_with_all_attributes(self):
         self.assertIsInstance(self.car_park, CarPark)
-        self.assertEqual(self.car_park.location, "123 Example Street")
+        self.assertEqual(self.car_park.location, "Moondalup")
         self.assertEqual(self.car_park.capacity, 100)
         self.assertEqual(self.car_park.plates, [])
         self.assertEqual(self.car_park.sensors, [])
