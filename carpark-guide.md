@@ -793,17 +793,11 @@ with self.assertRaises(TypeError):
 ```
 
 
-
-
 **Evidencing:**
 
 Commit your original test cases for the sensor class to the local repository. Tag the commit with `s8` so your lecturer can find it.
 
 --------
-
-![Image of a car park on the moon](images/moon_park.png)
-
-
 
 **Evidencing:**
 
@@ -1103,3 +1097,4 @@ In your final submission, you must include any files you created or modified. Th
 5. Congratulations! You have completed the project. You can now submit the assignment via Blackboard. Take the time to reflect on your work and write any notes and observations down.
 
 --------
+![Image of a car park on the moon](Images/moon_park.png)
